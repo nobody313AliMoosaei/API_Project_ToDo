@@ -1,0 +1,12 @@
+D:\Project\GitHub\To Do Project\API_Project_ToDo\ToDoProject\ToDo.Infrastracture\bin\Debug\net7.0\ToDo.Infrastracture.deps.json
+D:\Project\GitHub\To Do Project\API_Project_ToDo\ToDoProject\ToDo.Infrastracture\bin\Debug\net7.0\ToDo.Infrastracture.dll
+D:\Project\GitHub\To Do Project\API_Project_ToDo\ToDoProject\ToDo.Infrastracture\bin\Debug\net7.0\ToDo.Infrastracture.pdb
+D:\Project\GitHub\To Do Project\API_Project_ToDo\ToDoProject\ToDo.Infrastracture\obj\Debug\net7.0\ToDo.Infrastracture.csproj.AssemblyReference.cache
+D:\Project\GitHub\To Do Project\API_Project_ToDo\ToDoProject\ToDo.Infrastracture\obj\Debug\net7.0\ToDo.Infrastracture.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\GitHub\To Do Project\API_Project_ToDo\ToDoProject\ToDo.Infrastracture\obj\Debug\net7.0\ToDo.Infrastracture.AssemblyInfoInputs.cache
+D:\Project\GitHub\To Do Project\API_Project_ToDo\ToDoProject\ToDo.Infrastracture\obj\Debug\net7.0\ToDo.Infrastracture.AssemblyInfo.cs
+D:\Project\GitHub\To Do Project\API_Project_ToDo\ToDoProject\ToDo.Infrastracture\obj\Debug\net7.0\ToDo.Infrastracture.csproj.CoreCompileInputs.cache
+D:\Project\GitHub\To Do Project\API_Project_ToDo\ToDoProject\ToDo.Infrastracture\obj\Debug\net7.0\ToDo.Infrastracture.dll
+D:\Project\GitHub\To Do Project\API_Project_ToDo\ToDoProject\ToDo.Infrastracture\obj\Debug\net7.0\refint\ToDo.Infrastracture.dll
+D:\Project\GitHub\To Do Project\API_Project_ToDo\ToDoProject\ToDo.Infrastracture\obj\Debug\net7.0\ToDo.Infrastracture.pdb
+D:\Project\GitHub\To Do Project\API_Project_ToDo\ToDoProject\ToDo.Infrastracture\obj\Debug\net7.0\ref\ToDo.Infrastracture.dll

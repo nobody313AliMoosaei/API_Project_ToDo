@@ -1,0 +1,12 @@
+D:\Project\GitHub\To Do Project\API_Project_ToDo\ToDoProject\ToDo.Persistence\bin\Debug\net7.0\ToDo.Persistence.deps.json
+D:\Project\GitHub\To Do Project\API_Project_ToDo\ToDoProject\ToDo.Persistence\bin\Debug\net7.0\ToDo.Persistence.dll
+D:\Project\GitHub\To Do Project\API_Project_ToDo\ToDoProject\ToDo.Persistence\bin\Debug\net7.0\ToDo.Persistence.pdb
+D:\Project\GitHub\To Do Project\API_Project_ToDo\ToDoProject\ToDo.Persistence\obj\Debug\net7.0\ToDo.Persistence.csproj.AssemblyReference.cache
+D:\Project\GitHub\To Do Project\API_Project_ToDo\ToDoProject\ToDo.Persistence\obj\Debug\net7.0\ToDo.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\GitHub\To Do Project\API_Project_ToDo\ToDoProject\ToDo.Persistence\obj\Debug\net7.0\ToDo.Persistence.AssemblyInfoInputs.cache
+D:\Project\GitHub\To Do Project\API_Project_ToDo\ToDoProject\ToDo.Persistence\obj\Debug\net7.0\ToDo.Persistence.AssemblyInfo.cs
+D:\Project\GitHub\To Do Project\API_Project_ToDo\ToDoProject\ToDo.Persistence\obj\Debug\net7.0\ToDo.Persistence.csproj.CoreCompileInputs.cache
+D:\Project\GitHub\To Do Project\API_Project_ToDo\ToDoProject\ToDo.Persistence\obj\Debug\net7.0\ToDo.Persistence.dll
+D:\Project\GitHub\To Do Project\API_Project_ToDo\ToDoProject\ToDo.Persistence\obj\Debug\net7.0\refint\ToDo.Persistence.dll
+D:\Project\GitHub\To Do Project\API_Project_ToDo\ToDoProject\ToDo.Persistence\obj\Debug\net7.0\ToDo.Persistence.pdb
+D:\Project\GitHub\To Do Project\API_Project_ToDo\ToDoProject\ToDo.Persistence\obj\Debug\net7.0\ref\ToDo.Persistence.dll

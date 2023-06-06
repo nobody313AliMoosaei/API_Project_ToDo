@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "b8JHf7vfxXwrAW3ivV9CtaHOoXWlVY/ZauiKCD1B0x0=",
+  "Source": "Web_API",
+  "BasePath": "_content/Web_API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Web_API\\wwwroot",
+      "Source": "Web_API",
+      "ContentRoot": "D:\\Project\\GitHub\\To Do Project\\API_Project_ToDo\\ToDoProject\\Web_API\\wwwroot\\",
+      "BasePath": "_content/Web_API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

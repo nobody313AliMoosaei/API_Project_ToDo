@@ -1,0 +1,12 @@
+D:\Project\GitHub\To Do Project\API_Project_ToDo\ToDoProject\ToDo.Application\bin\Debug\net7.0\ToDo.Application.deps.json
+D:\Project\GitHub\To Do Project\API_Project_ToDo\ToDoProject\ToDo.Application\bin\Debug\net7.0\ToDo.Application.dll
+D:\Project\GitHub\To Do Project\API_Project_ToDo\ToDoProject\ToDo.Application\bin\Debug\net7.0\ToDo.Application.pdb
+D:\Project\GitHub\To Do Project\API_Project_ToDo\ToDoProject\ToDo.Application\obj\Debug\net7.0\ToDo.Application.csproj.AssemblyReference.cache
+D:\Project\GitHub\To Do Project\API_Project_ToDo\ToDoProject\ToDo.Application\obj\Debug\net7.0\ToDo.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\GitHub\To Do Project\API_Project_ToDo\ToDoProject\ToDo.Application\obj\Debug\net7.0\ToDo.Application.AssemblyInfoInputs.cache
+D:\Project\GitHub\To Do Project\API_Project_ToDo\ToDoProject\ToDo.Application\obj\Debug\net7.0\ToDo.Application.AssemblyInfo.cs
+D:\Project\GitHub\To Do Project\API_Project_ToDo\ToDoProject\ToDo.Application\obj\Debug\net7.0\ToDo.Application.csproj.CoreCompileInputs.cache
+D:\Project\GitHub\To Do Project\API_Project_ToDo\ToDoProject\ToDo.Application\obj\Debug\net7.0\ToDo.Application.dll
+D:\Project\GitHub\To Do Project\API_Project_ToDo\ToDoProject\ToDo.Application\obj\Debug\net7.0\refint\ToDo.Application.dll
+D:\Project\GitHub\To Do Project\API_Project_ToDo\ToDoProject\ToDo.Application\obj\Debug\net7.0\ToDo.Application.pdb
+D:\Project\GitHub\To Do Project\API_Project_ToDo\ToDoProject\ToDo.Application\obj\Debug\net7.0\ref\ToDo.Application.dll
