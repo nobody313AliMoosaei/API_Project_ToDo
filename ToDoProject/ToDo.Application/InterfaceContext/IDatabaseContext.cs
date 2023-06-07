@@ -10,11 +10,9 @@ namespace ToDo.Application.InterfaceContext
 {
     public interface IDatabaseContext
     {
-
-        DbSet<User> Users { get; set; }
-        int SaveChanges();
-        int SaveChanges(bool acceptAllChangesOnSuccess);
-        Task<int> SaveChangesAsync(bool acceptAllChangesOnSuccess, CancellationToken cancellationToken = default);
         Task<int> SaveChangesAsync(CancellationToken cancellationToken = default);
+        Task<int> SaveChangesAsync(bool acceptAllChangesOnSuccess, CancellationToken cancellationToken = default);
+        int SaveChanges(bool acceptAllChangesOnSuccess);
+        int SaveChanges();
     }
 }

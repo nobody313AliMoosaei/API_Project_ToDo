@@ -4,14 +4,83 @@
     "D:\\Project\\GitHub\\To Do Project\\API_Project_ToDo\\ToDoProject\\Web_API\\Web_API.csproj": {}
   },
   "projects": {
-    "D:\\Project\\GitHub\\To Do Project\\API_Project_ToDo\\ToDoProject\\Web_API\\Web_API.csproj": {
+    "D:\\Project\\GitHub\\To Do Project\\API_Project_ToDo\\ToDoProject\\ToDo.Application\\ToDo.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\GitHub\\To Do Project\\API_Project_ToDo\\ToDoProject\\Web_API\\Web_API.csproj",
-        "projectName": "Web_API",
-        "projectPath": "D:\\Project\\GitHub\\To Do Project\\API_Project_ToDo\\ToDoProject\\Web_API\\Web_API.csproj",
+        "projectUniqueName": "D:\\Project\\GitHub\\To Do Project\\API_Project_ToDo\\ToDoProject\\ToDo.Application\\ToDo.Application.csproj",
+        "projectName": "ToDo.Application",
+        "projectPath": "D:\\Project\\GitHub\\To Do Project\\API_Project_ToDo\\ToDoProject\\ToDo.Application\\ToDo.Application.csproj",
         "packagesPath": "C:\\Users\\AliMoosaei\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\GitHub\\To Do Project\\API_Project_ToDo\\ToDoProject\\Web_API\\obj\\",
+        "outputPath": "D:\\Project\\GitHub\\To Do Project\\API_Project_ToDo\\ToDoProject\\ToDo.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\AliMoosaei\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Project\\GitHub\\To Do Project\\API_Project_ToDo\\ToDoProject\\ToDo.Domain\\ToDo.Domain.csproj": {
+                "projectPath": "D:\\Project\\GitHub\\To Do Project\\API_Project_ToDo\\ToDoProject\\ToDo.Domain\\ToDo.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Project\\GitHub\\To Do Project\\API_Project_ToDo\\ToDoProject\\ToDo.Domain\\ToDo.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Project\\GitHub\\To Do Project\\API_Project_ToDo\\ToDoProject\\ToDo.Domain\\ToDo.Domain.csproj",
+        "projectName": "ToDo.Domain",
+        "projectPath": "D:\\Project\\GitHub\\To Do Project\\API_Project_ToDo\\ToDoProject\\ToDo.Domain\\ToDo.Domain.csproj",
+        "packagesPath": "C:\\Users\\AliMoosaei\\.nuget\\packages\\",
+        "outputPath": "D:\\Project\\GitHub\\To Do Project\\API_Project_ToDo\\ToDoProject\\ToDo.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\AliMoosaei\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,9 +109,162 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Project\\GitHub\\To Do Project\\API_Project_ToDo\\ToDoProject\\ToDo.Persistence\\ToDo.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Project\\GitHub\\To Do Project\\API_Project_ToDo\\ToDoProject\\ToDo.Persistence\\ToDo.Persistence.csproj",
+        "projectName": "ToDo.Persistence",
+        "projectPath": "D:\\Project\\GitHub\\To Do Project\\API_Project_ToDo\\ToDoProject\\ToDo.Persistence\\ToDo.Persistence.csproj",
+        "packagesPath": "C:\\Users\\AliMoosaei\\.nuget\\packages\\",
+        "outputPath": "D:\\Project\\GitHub\\To Do Project\\API_Project_ToDo\\ToDoProject\\ToDo.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\AliMoosaei\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Project\\GitHub\\To Do Project\\API_Project_ToDo\\ToDoProject\\ToDo.Application\\ToDo.Application.csproj": {
+                "projectPath": "D:\\Project\\GitHub\\To Do Project\\API_Project_ToDo\\ToDoProject\\ToDo.Application\\ToDo.Application.csproj"
+              },
+              "D:\\Project\\GitHub\\To Do Project\\API_Project_ToDo\\ToDoProject\\ToDo.Domain\\ToDo.Domain.csproj": {
+                "projectPath": "D:\\Project\\GitHub\\To Do Project\\API_Project_ToDo\\ToDoProject\\ToDo.Domain\\ToDo.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Project\\GitHub\\To Do Project\\API_Project_ToDo\\ToDoProject\\Web_API\\Web_API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Project\\GitHub\\To Do Project\\API_Project_ToDo\\ToDoProject\\Web_API\\Web_API.csproj",
+        "projectName": "Web_API",
+        "projectPath": "D:\\Project\\GitHub\\To Do Project\\API_Project_ToDo\\ToDoProject\\Web_API\\Web_API.csproj",
+        "packagesPath": "C:\\Users\\AliMoosaei\\.nuget\\packages\\",
+        "outputPath": "D:\\Project\\GitHub\\To Do Project\\API_Project_ToDo\\ToDoProject\\Web_API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\AliMoosaei\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Project\\GitHub\\To Do Project\\API_Project_ToDo\\ToDoProject\\ToDo.Persistence\\ToDo.Persistence.csproj": {
+                "projectPath": "D:\\Project\\GitHub\\To Do Project\\API_Project_ToDo\\ToDoProject\\ToDo.Persistence\\ToDo.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

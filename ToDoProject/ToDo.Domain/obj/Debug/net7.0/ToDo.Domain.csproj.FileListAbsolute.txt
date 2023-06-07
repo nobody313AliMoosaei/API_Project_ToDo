@@ -10,3 +10,5 @@ D:\Project\GitHub\To Do Project\API_Project_ToDo\ToDoProject\ToDo.Domain\obj\Deb
 D:\Project\GitHub\To Do Project\API_Project_ToDo\ToDoProject\ToDo.Domain\obj\Debug\net7.0\refint\ToDo.Domain.dll
 D:\Project\GitHub\To Do Project\API_Project_ToDo\ToDoProject\ToDo.Domain\obj\Debug\net7.0\ToDo.Domain.pdb
 D:\Project\GitHub\To Do Project\API_Project_ToDo\ToDoProject\ToDo.Domain\obj\Debug\net7.0\ref\ToDo.Domain.dll
+D:\Project\GitHub\To Do Project\API_Project_ToDo\ToDoProject\ToDo.Domain\bin\Debug\net7.0\ToDo.Domain.runtimeconfig.json
+D:\Project\GitHub\To Do Project\API_Project_ToDo\ToDoProject\ToDo.Domain\obj\Debug\net7.0\ToDo.Domain.genruntimeconfig.cache
