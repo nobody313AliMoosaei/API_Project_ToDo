@@ -10,3 +10,6 @@ D:\Project\GitHub\To Do Project\API_Project_ToDo\ToDoProject\ToDo.Application\ob
 D:\Project\GitHub\To Do Project\API_Project_ToDo\ToDoProject\ToDo.Application\obj\Debug\net7.0\refint\ToDo.Application.dll
 D:\Project\GitHub\To Do Project\API_Project_ToDo\ToDoProject\ToDo.Application\obj\Debug\net7.0\ToDo.Application.pdb
 D:\Project\GitHub\To Do Project\API_Project_ToDo\ToDoProject\ToDo.Application\obj\Debug\net7.0\ref\ToDo.Application.dll
+D:\Project\GitHub\To Do Project\API_Project_ToDo\ToDoProject\ToDo.Application\bin\Debug\net7.0\ToDo.Domain.dll
+D:\Project\GitHub\To Do Project\API_Project_ToDo\ToDoProject\ToDo.Application\bin\Debug\net7.0\ToDo.Domain.pdb
+D:\Project\GitHub\To Do Project\API_Project_ToDo\ToDoProject\ToDo.Application\obj\Debug\net7.0\ToDo.Application.csproj.CopyComplete

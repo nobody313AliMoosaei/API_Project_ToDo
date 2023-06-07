@@ -10,3 +10,6 @@ D:\Project\GitHub\To Do Project\API_Project_ToDo\ToDoProject\ToDo.Persistence\ob
 D:\Project\GitHub\To Do Project\API_Project_ToDo\ToDoProject\ToDo.Persistence\obj\Debug\net7.0\refint\ToDo.Persistence.dll
 D:\Project\GitHub\To Do Project\API_Project_ToDo\ToDoProject\ToDo.Persistence\obj\Debug\net7.0\ToDo.Persistence.pdb
 D:\Project\GitHub\To Do Project\API_Project_ToDo\ToDoProject\ToDo.Persistence\obj\Debug\net7.0\ref\ToDo.Persistence.dll
+D:\Project\GitHub\To Do Project\API_Project_ToDo\ToDoProject\ToDo.Persistence\bin\Debug\net7.0\ToDo.Domain.dll
+D:\Project\GitHub\To Do Project\API_Project_ToDo\ToDoProject\ToDo.Persistence\bin\Debug\net7.0\ToDo.Domain.pdb
+D:\Project\GitHub\To Do Project\API_Project_ToDo\ToDoProject\ToDo.Persistence\obj\Debug\net7.0\ToDo.Persistence.csproj.CopyComplete
