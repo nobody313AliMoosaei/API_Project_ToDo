@@ -18,6 +18,7 @@ namespace ToDo.Persistence.Context.DatabaseContext
         {
         }
 
+        // Overrid On Model Creating
         protected override void OnModelCreating(ModelBuilder builder)
         {
             builder.Entity<User>().ToTable("User", "identity");

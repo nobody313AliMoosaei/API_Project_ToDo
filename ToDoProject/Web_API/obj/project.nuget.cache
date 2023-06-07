@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "EUI/Rgqn84KJQf+XB7MX4AThPlP0TzU4BufRRu1Jj9PKENq1k8gMxF2PXHneqHIh8vGeA7TOC09+DkCWQTva5w==",
+  "dgSpecHash": "rD9yR9ORzAeByxDe8nMFMCtYsRCOHW00k8kK4vIBnnOJSXJf3TNA+ArEbBvwyDejacuHhnjzXKX8qc48KNUkxA==",
   "success": true,
   "projectFilePath": "D:\\Project\\GitHub\\To Do Project\\API_Project_ToDo\\ToDoProject\\Web_API\\Web_API.csproj",
   "expectedPackageFiles": [
@@ -11,6 +11,7 @@
     "C:\\Users\\AliMoosaei\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\AliMoosaei\\.nuget\\packages\\microsoft.aspnetcore.authentication.cookies\\2.2.0\\microsoft.aspnetcore.authentication.cookies.2.2.0.nupkg.sha512",
     "C:\\Users\\AliMoosaei\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
+    "C:\\Users\\AliMoosaei\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.5\\microsoft.aspnetcore.authentication.jwtbearer.7.0.5.nupkg.sha512",
     "C:\\Users\\AliMoosaei\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\7.0.5\\microsoft.aspnetcore.cryptography.internal.7.0.5.nupkg.sha512",
     "C:\\Users\\AliMoosaei\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\7.0.5\\microsoft.aspnetcore.cryptography.keyderivation.7.0.5.nupkg.sha512",
     "C:\\Users\\AliMoosaei\\.nuget\\packages\\microsoft.aspnetcore.dataprotection\\2.2.0\\microsoft.aspnetcore.dataprotection.2.2.0.nupkg.sha512",
