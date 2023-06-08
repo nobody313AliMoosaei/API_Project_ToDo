@@ -1729,6 +1729,16 @@
           "bin/placeholder/ToDo.Domain.dll": {}
         }
       },
+      "ToDo.Infrastracture/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/ToDo.Infrastracture.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ToDo.Infrastracture.dll": {}
+        }
+      },
       "ToDo.Persistence/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -4798,6 +4808,11 @@
       "path": "../ToDo.Domain/ToDo.Domain.csproj",
       "msbuildProject": "../ToDo.Domain/ToDo.Domain.csproj"
     },
+    "ToDo.Infrastracture/1.0.0": {
+      "type": "project",
+      "path": "../ToDo.Infrastracture/ToDo.Infrastracture.csproj",
+      "msbuildProject": "../ToDo.Infrastracture/ToDo.Infrastracture.csproj"
+    },
     "ToDo.Persistence/1.0.0": {
       "type": "project",
       "path": "../ToDo.Persistence/ToDo.Persistence.csproj",
@@ -4810,6 +4825,8 @@
       "Microsoft.AspNetCore.OpenApi >= 7.0.2",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.5",
       "Swashbuckle.AspNetCore >= 6.4.0",
+      "ToDo.Application >= 1.0.0",
+      "ToDo.Infrastracture >= 1.0.0",
       "ToDo.Persistence >= 1.0.0"
     ]
   },
@@ -4840,6 +4857,12 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
+            "D:\\Project\\GitHub\\To Do Project\\API_Project_ToDo\\ToDoProject\\ToDo.Application\\ToDo.Application.csproj": {
+              "projectPath": "D:\\Project\\GitHub\\To Do Project\\API_Project_ToDo\\ToDoProject\\ToDo.Application\\ToDo.Application.csproj"
+            },
+            "D:\\Project\\GitHub\\To Do Project\\API_Project_ToDo\\ToDoProject\\ToDo.Infrastracture\\ToDo.Infrastracture.csproj": {
+              "projectPath": "D:\\Project\\GitHub\\To Do Project\\API_Project_ToDo\\ToDoProject\\ToDo.Infrastracture\\ToDo.Infrastracture.csproj"
+            },
             "D:\\Project\\GitHub\\To Do Project\\API_Project_ToDo\\ToDoProject\\ToDo.Persistence\\ToDo.Persistence.csproj": {
               "projectPath": "D:\\Project\\GitHub\\To Do Project\\API_Project_ToDo\\ToDoProject\\ToDo.Persistence\\ToDo.Persistence.csproj"
             }

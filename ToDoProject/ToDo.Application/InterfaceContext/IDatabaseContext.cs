@@ -14,5 +14,8 @@ namespace ToDo.Application.InterfaceContext
         Task<int> SaveChangesAsync(bool acceptAllChangesOnSuccess, CancellationToken cancellationToken = default);
         int SaveChanges(bool acceptAllChangesOnSuccess);
         int SaveChanges();
+
+        // DbSet
+        DbSet<Card> Cards { get; set; }
     }
 }

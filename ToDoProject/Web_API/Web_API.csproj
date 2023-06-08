@@ -17,11 +17,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
     <Folder Include="wwwroot\" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ToDo.Application\ToDo.Application.csproj" />
+    <ProjectReference Include="..\ToDo.Infrastracture\ToDo.Infrastracture.csproj" />
     <ProjectReference Include="..\ToDo.Persistence\ToDo.Persistence.csproj" />
   </ItemGroup>
 

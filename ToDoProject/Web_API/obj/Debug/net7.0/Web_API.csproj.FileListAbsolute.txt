@@ -87,3 +87,6 @@ D:\Project\GitHub\To Do Project\API_Project_ToDo\ToDoProject\Web_API\bin\Debug\n
 D:\Project\GitHub\To Do Project\API_Project_ToDo\ToDoProject\Web_API\bin\Debug\net7.0\ToDo.Persistence.pdb
 D:\Project\GitHub\To Do Project\API_Project_ToDo\ToDoProject\Web_API\bin\Debug\net7.0\ToDo.Application.pdb
 D:\Project\GitHub\To Do Project\API_Project_ToDo\ToDoProject\Web_API\bin\Debug\net7.0\ToDo.Domain.pdb
+D:\Project\GitHub\To Do Project\API_Project_ToDo\ToDoProject\Web_API\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Project\GitHub\To Do Project\API_Project_ToDo\ToDoProject\Web_API\bin\Debug\net7.0\ToDo.Infrastracture.dll
+D:\Project\GitHub\To Do Project\API_Project_ToDo\ToDoProject\Web_API\bin\Debug\net7.0\ToDo.Infrastracture.pdb

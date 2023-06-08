@@ -24,7 +24,7 @@ namespace ToDo.Application.Services.JWT_Service
         {
             try
             {
-                if (Data.User_Id == 0 || string.IsNullOrWhiteSpace(Data.UserName))
+                if (Data.User_Id == 0 || string.IsNullOrEmpty(Data.UserName))
                 {
                     return string.Empty;
                 }

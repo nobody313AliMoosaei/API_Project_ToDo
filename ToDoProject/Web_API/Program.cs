@@ -47,6 +47,11 @@ builder.Services
     .AddTransient<ToDo.Application.Services.JWT_Service.IJWTService
     , ToDo.Application.Services.JWT_Service.JWTService>();
 
+builder.Services.AddTransient<ToDo.Application.InterfaceContext.IDatabaseContext
+    , ToDo.Persistence.Context.DatabaseContext.ApplicationDatabaseContext>();
+
+builder.Services.AddTransient<ToDo.Application.Services.User_Service.IUserService
+    , ToDo.Application.Services.User_Service.UserService>();
 
 #endregion
 
@@ -61,6 +66,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
