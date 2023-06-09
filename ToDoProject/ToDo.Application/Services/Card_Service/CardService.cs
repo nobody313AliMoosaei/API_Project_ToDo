@@ -67,7 +67,9 @@ namespace ToDo.Application.Services.Card_Service
         {
             try
             {
-                return await _Context.Cards.ToListAsync();
+                return await _Context.Cards
+                    .Include(t=>t.Users)
+                    .ToListAsync();
             }
             catch
             {
@@ -79,7 +81,10 @@ namespace ToDo.Application.Services.Card_Service
         {
             try
             {
-                var Card = await _Context.Cards.Where(t => t.Id == Card_Id).FirstOrDefaultAsync();
+                var Card = await _Context.Cards
+                    .Include(t=>t.Users)
+                    .Where(t => t.Id == Card_Id)
+                    .FirstOrDefaultAsync();
 
                 return Card;
             }
@@ -93,7 +98,10 @@ namespace ToDo.Application.Services.Card_Service
         {
             try
             {
-                var Card = await _Context.Cards.Where(t => t.Title == Title).FirstOrDefaultAsync();
+                var Card = await _Context.Cards
+                    .Include(t => t.Users)
+                    .Where(t => t.Title == Title)
+                    .FirstOrDefaultAsync();
                 if (Card == null)
                     return null;
                 return Card;

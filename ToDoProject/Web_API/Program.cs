@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
@@ -56,6 +57,20 @@ builder.Services.AddTransient<ToDo.Application.Services.User_Service.IUserServic
 builder.Services.AddTransient<ToDo.Application.Services.Card_Service.ICardService,
     ToDo.Application.Services.Card_Service.CardService>();
 
+#endregion
+
+#region Resource Authorization
+
+builder.Services.AddSingleton<IAuthorizationHandler
+    , Web_API.Hellper.AuthorizationHandler.ResourceAuthorization.IsCardForUserAuthorization>();
+
+builder.Services.AddAuthorization(option =>
+{
+    option.AddPolicy("IsCardForUser", policy =>
+    {
+        policy.AddRequirements(new Web_API.Hellper.AuthorizationHandler.ResourceAuthorization.CardRequirement());
+    });
+});
 #endregion
 
 var app = builder.Build();

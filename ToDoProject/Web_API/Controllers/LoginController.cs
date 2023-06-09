@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using ToDo.Application.Services.User_Service;
 namespace Web_API.Controllers
 {
-    [Route("[controller]")]
+    [Route("Test/[controller]")]
     [ApiController]
     public class LoginController : ControllerBase
     {
