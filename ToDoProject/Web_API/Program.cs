@@ -53,6 +53,9 @@ builder.Services.AddTransient<ToDo.Application.InterfaceContext.IDatabaseContext
 builder.Services.AddTransient<ToDo.Application.Services.User_Service.IUserService
     , ToDo.Application.Services.User_Service.UserService>();
 
+builder.Services.AddTransient<ToDo.Application.Services.Card_Service.ICardService,
+    ToDo.Application.Services.Card_Service.CardService>();
+
 #endregion
 
 var app = builder.Build();
