@@ -21,7 +21,14 @@ namespace Web_API.Controllers
             _AuthorizationService = authorizationService;
         }
 
-
+        /// <summary>
+        /// در این اکشن با استفاده از سرویس کارد و ورودی دیتا 
+        /// اقدام به ثبت تسک جدید می کنیم
+        /// </summary>
+        /// <param name="Data_Card"></param>
+        /// <returns>
+        /// فقط یک رشته استرینگ است که کاربر را از درستی یا ناردستی عملیات مطلع کنیم
+        /// </returns>
         [Authorize]
         [HttpPost]
         // Create
@@ -34,6 +41,12 @@ namespace Web_API.Controllers
                 return Ok("ثبت تسک با موفقیت انجام شد");
             return BadRequest("ثبت تسک موفقیت آمیز نبود");
         }
+
+        /// <summary>
+        /// تمام تسک ها را در این اکشن می توانیم بدون احراز هویت توسط هر کاربری دریافت کنیم
+        /// دریافت به صورت مپ شده است
+        /// </summary>
+        /// <returns></returns>
         // Read
         [HttpGet]
         public async Task<IActionResult> GetAllCard()
@@ -57,6 +70,14 @@ namespace Web_API.Controllers
             return Ok(Cards);
         }
 
+        /// <summary>
+        /// دریافت یک تسک اب استفاده از شناسه آن تسک انجام میشود
+        /// </summary>
+        /// <param name="Id"></param>
+        /// <returns>
+        /// اطلاعات یک تسک را به صورت مپ شده به فرمت تعیین شده ارسال می کنیم به فرانت
+        /// </returns>
+
         [HttpGet("{Id}")]
         public async Task<IActionResult> GetOneCard(int Id)
         {
@@ -72,6 +93,13 @@ namespace Web_API.Controllers
                 UserNames = Card.Users.Select(t => t.UserName).ToList()
             });
         }
+
+
+        /// <summary>
+        /// این اکشن تمام تسک های مربوط به یک کاربر را به ما می دهد
+        /// </summary>
+        /// <param name="UserId"></param>
+        /// <returns></returns>
         [HttpGet("{UserId}")]
         public async Task<IActionResult> GetCardByUserId([FromRoute]int UserId)
         {
@@ -96,6 +124,15 @@ namespace Web_API.Controllers
             return Ok(AllCards);
         }
 
+        /// <summary>
+        /// 
+        /// این اکشن تمام تسک های کاربر مدنظر را به ما می دهد
+        /// این اکشن به عنوان ورودی رشته استرینگی که نام کاربری کاربر می باشد را می گیرد
+        /// و تسک های مبروط به آن نام کاربری را برگشت می دهد
+        /// </summary>
+        /// <param name="UserName"></param>
+        /// <returns></returns>
+
         [HttpGet("{UserName}")]
         public async Task<IActionResult> GetCardsByUserName(string UserName)
         {
@@ -118,6 +155,15 @@ namespace Web_API.Controllers
             }
             return Ok(AllCards);
         }
+
+        /// <summary>
+        /// ویرایش یک تسک در این اکشن انجام می شود
+        /// تنها کسی که ایجاد کننده در تسک باشد، قابلیت تغییر را دارد
+        /// این قابلیت با ایده ئولوژی Resource Authorization انجام شده
+        /// سرویس آن نیز به این کنترولر اینجکت شده است
+        /// </summary>
+        /// <param name="Data_Update"></param>
+        /// <returns></returns>
         // Update
         [Authorize]
         [HttpPut]
@@ -142,6 +188,13 @@ namespace Web_API.Controllers
                 return BadRequest("کاربر نمی تواند تسک دیگران را تغییر دهد");
             }
         }
+
+        /// <summary>
+        /// از انجایی ک ما از Resource Authorization استفاده کردیم
+        /// تنها کسی می تواند آنرا ویرایش کند که سازنده تسک باشد
+        /// </summary>
+        /// <param name="Card_Id"></param>
+        /// <returns></returns>
         // Delete
         [Authorize]
         [HttpDelete]
