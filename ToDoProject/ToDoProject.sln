@@ -3,21 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDo.Domain", "ToDo.Domain\ToDo.Domain.csproj", "{1D62BF28-FFA6-474C-99BD-D585DD0E98D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDo.Domain", "ToDo.Domain\ToDo.Domain.csproj", "{1D62BF28-FFA6-474C-99BD-D585DD0E98D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDo.Infrastracture", "ToDo.Infrastracture\ToDo.Infrastracture.csproj", "{9C76FA50-AA05-498C-9AA8-F2F1653EEC4D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDo.Infrastracture", "ToDo.Infrastracture\ToDo.Infrastracture.csproj", "{9C76FA50-AA05-498C-9AA8-F2F1653EEC4D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDo.Application", "ToDo.Application\ToDo.Application.csproj", "{B68143A6-739E-408B-8247-DD8D92F78ABE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDo.Application", "ToDo.Application\ToDo.Application.csproj", "{B68143A6-739E-408B-8247-DD8D92F78ABE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDo.Persistence", "ToDo.Persistence\ToDo.Persistence.csproj", "{9D4C36D1-AC72-490E-9629-D1EFE07E0F92}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDo.Persistence", "ToDo.Persistence\ToDo.Persistence.csproj", "{9D4C36D1-AC72-490E-9629-D1EFE07E0F92}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web_API", "Web_API\Web_API.csproj", "{90D18E3A-2288-441E-B0B5-7D8673249C76}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Web_API", "Web_API\Web_API.csproj", "{90D18E3A-2288-441E-B0B5-7D8673249C76}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{464EB69A-4CBF-4555-B4A8-2006A58C77AC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{62CA6B42-C760-4A1E-97B5-6457C8CE4E15}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Document", "Document", "{2AD8A7D1-E5CB-46F4-BAA9-BBF6355A5B87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web_API_Test", "Web_API_Test\Web_API_Test.csproj", "{448AFF8E-8662-45CA-B8FE-A624F4DFCA33}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{90D18E3A-2288-441E-B0B5-7D8673249C76}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90D18E3A-2288-441E-B0B5-7D8673249C76}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90D18E3A-2288-441E-B0B5-7D8673249C76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{448AFF8E-8662-45CA-B8FE-A624F4DFCA33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{448AFF8E-8662-45CA-B8FE-A624F4DFCA33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{448AFF8E-8662-45CA-B8FE-A624F4DFCA33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{448AFF8E-8662-45CA-B8FE-A624F4DFCA33}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,6 +61,7 @@ Global
 		{B68143A6-739E-408B-8247-DD8D92F78ABE} = {464EB69A-4CBF-4555-B4A8-2006A58C77AC}
 		{9D4C36D1-AC72-490E-9629-D1EFE07E0F92} = {464EB69A-4CBF-4555-B4A8-2006A58C77AC}
 		{90D18E3A-2288-441E-B0B5-7D8673249C76} = {464EB69A-4CBF-4555-B4A8-2006A58C77AC}
+		{448AFF8E-8662-45CA-B8FE-A624F4DFCA33} = {62CA6B42-C760-4A1E-97B5-6457C8CE4E15}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {627D196B-1AEC-4D03-8A10-C809D5B3AF1B}
